@@ -10,7 +10,7 @@
 <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="R9" revision="thirteen" clone-depth="1"/>
 <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="R9" revision="thirteen" clone-depth="1"/>
 <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="R9" revision="thirteen" clone-depth="1"/>
-<project path="vendor/extra/keys" name="Keys.git" remote="MT6768" revision="PixelExperience-13" clone-depth="1"/>
+<project path="vendor/extra" name="Keys.git" remote="MT6768" revision="PixelExperience-13" clone-depth="1"/>
 <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="PE" revision="thirteen" clone-depth="1"/>
 <project path="hardware/mediatek" name="hardware_mediatek" remote="PE" revision="thirteen" clone-depth="1"/>
  </manifest>
