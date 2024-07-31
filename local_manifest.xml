@@ -4,6 +4,7 @@
 <remote name="R9" fetch="https://github.com/6768-S"/>
 <remote name="MT6768" fetch="https://gitlab.com/MT6768Lab"/>
 <remote name="PE" fetch="https://github.com/pixelexperience"/>
+<remote name="GMS" fetch="https://gitlab.com/VoidUI"/>
 
 <!-- Device Trees -->
 <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="R9" revision="thirteen" clone-depth="1"/>
@@ -13,4 +14,6 @@
 <project path="vendor/extra" name="Keys.git" remote="MT6768" revision="PixelExperience-13" clone-depth="1"/>
 <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="PE" revision="thirteen" clone-depth="1"/>
 <project path="hardware/mediatek" name="hardware_mediatek" remote="PE" revision="thirteen" clone-depth="1"/>
+<remove-project name="vendor_gms"/>
+<project path="vendor/gms" name="vendor_gms.git" remote="GMS" revision="aosp-13" clone-depth="1"/>
  </manifest>
